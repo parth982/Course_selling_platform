@@ -36,7 +36,10 @@ await server.start();
 // to bypass cors error, accept json data
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://learnify-fe.onrender.com"],
+    origin: [
+      "http://localhost:3000",
+      "https://course-selling-platform-theta.vercel.app",
+    ],
     credentials: true,
   }),
   bodyParser.json(),
