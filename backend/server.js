@@ -21,8 +21,7 @@ import resolvers from "./graphql/resolver.js";
 import cookieParser from "cookie-parser";
 
 // SETUP FOR REST AND GRAPHQL
-const env = process.env.NODE_ENV || "development";
-dotenv.config({ path: `.env.${env}` });
+dotenv.config();
 const app = express();
 const port = process.env.PORT || 4000;
 const httpServer = http.createServer(app);
