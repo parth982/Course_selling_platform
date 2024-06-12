@@ -39,6 +39,7 @@ app.use(
     origin: [
       "http://localhost:3000",
       "https://course-selling-platform-theta.vercel.app",
+      "https://course-selling-platform-m2eqk9vfy-parths-projects-5b427ccd.vercel.app",
     ],
     credentials: true,
   }),
