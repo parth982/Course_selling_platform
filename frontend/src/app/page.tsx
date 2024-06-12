@@ -9,7 +9,7 @@ import "@/static/styles/home.scss";
 import Footer from "@/components/footer/Footer";
 import dynamic from "next/dynamic";
 
-function Home() {
+export default function Home() {
   return (
     <div style={{}} className="fcc w100">
       <Hero />
@@ -23,4 +23,4 @@ function Home() {
   );
 }
 
-export default dynamic(() => Promise.resolve(Home), { ssr: false });
+// export default dynamic(() => Promise.resolve(Home), { ssr: false });
