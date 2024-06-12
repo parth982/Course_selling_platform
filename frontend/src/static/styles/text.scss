@@ -1,0 +1,63 @@
+// @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Open+Sans:wght@400;600&family=Oswald:wght@400;600&family=Raleway:wght@300;500;600;700&display=swap"); // without normal style for merriweather. can be used as ref
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,700&family=Open+Sans:wght@400;600&family=Oswald:wght@400;600&family=Raleway:wght@300;500;600;700&display=swap");
+
+// MERIWEATHER
+.mw {
+  font-family: Merriweather, serif;
+}
+
+// OPEN SANS
+.os,
+.semi14-os {
+  font-family: Open Sans;
+}
+.semi14-os {
+  font-size: 14px;
+  font-style: normal;
+}
+.semi14-os {
+  font-weight: 600;
+}
+
+// RALEWAY
+.h1Highlight,
+.h2Highlight {
+  font-family: Merriweather, serif;
+  font-style: italic;
+  font-weight: 700;
+}
+.h2Highlight {
+  color: var(--primary, #cf4e16);
+  text-align: center;
+  font-size: 36px;
+  text-transform: capitalize;
+  line-height: 150%;
+}
+
+.h1Highlight {
+  color: #1f1f1f;
+  font-size: 64px;
+  line-height: 150%;
+}
+
+#logo {
+  font-family: Oswald;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -2.7px;
+  text-transform: uppercase;
+  background: linear-gradient(117deg, #cf4e16 70%, #e0784b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heroImgText {
+  position: absolute;
+  top: 20px;
+  z-index: 1;
+  left: 15px;
+  color: var(--dark-bg);
+}

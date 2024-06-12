@@ -1,0 +1,23 @@
+query{
+    getPurchasedCourses{
+        msg
+        status
+        data{
+            __typename
+            ...on Course{
+               _id
+                createdAt
+                title
+                price
+                description
+                purchaseCount
+                category
+                imageLink
+                published
+                creator{
+                    username
+                }
+            }
+        }
+    }
+}

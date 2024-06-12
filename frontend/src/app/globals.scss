@@ -1,0 +1,121 @@
+:root {
+  --white: #fafafa;
+  --dark-bg: #1f1f1f;
+  --shadow: #040404;
+  --bg: #2d2d2d;
+  --primary: #cf4e16;
+  --light-bg: #383838;
+  --red: #c72929;
+
+  --light-border: 1px solid var(--light-bg);
+
+  --x-buynowcard: 853px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border-width: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: #2d2d2d;
+}
+
+body {
+  color: var(--white);
+  font-family: Raleway, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* BUTTONS */
+
+button {
+  background: none;
+  color: var(--white);
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  background-color: var(--dark-bg);
+  &svg {
+    box-shadow: 3px 2px 2px 0px var(--shadow);
+  }
+}
+.zoom {
+  transition: transform 0.5s ease-in-out;
+  &:enabled:hover {
+    transform: scale(1.05);
+  }
+}
+
+// TEXT
+h2,
+h1,
+h5,
+h4,
+h3 {
+  color: var(--white);
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+h2,
+h5 {
+  text-transform: capitalize;
+}
+h2 {
+  font-size: 36px;
+  line-height: 50px;
+}
+h3 {
+  font-size: 24px;
+  line-height: 150%;
+}
+h1 {
+  font-size: 64px;
+  line-height: normal;
+}
+h4 {
+  font-size: 16px;
+}
+h5 {
+  font-size: 15px;
+  line-height: 150%;
+  font-weight: 600;
+}
+
+// CONTAINERS
+.topContainer {
+  width: 100vw;
+  background-color: var(--dark-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container1200 {
+  max-width: 1250px;
+  width: 100%;
+  padding-inline: 25px;
+}
+
+// WHITE BOX
+.whiteBox {
+  font-style: normal;
+  background-color: var(--white);
+  padding: 0 6px;
+  border-radius: 20px;
+}
