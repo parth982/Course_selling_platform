@@ -125,7 +125,7 @@ export default function Login() {
             return;
           }
           setToast({
-            text: "Login successful. Welcome To Skillz 🥳",
+            text: "Login successful. Welcome To Learnify 🥳",
             type: "success",
             secs: 5000,
           });
@@ -279,7 +279,7 @@ const SwitchPageType = ({
   isLogin: boolean;
   setPageType: React.Dispatch<React.SetStateAction<"login" | "register">>;
 }) => {
-  const text = isLogin ? "New to Skillz?" : "Already registered?";
+  const text = isLogin ? "New to Learnify?" : "Already registered?";
   const linkText = isLogin ? "Create new account" : "Click here to login";
   const handleClick = () => {
     setPageType(isLogin ? "register" : "login");

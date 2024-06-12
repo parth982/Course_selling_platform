@@ -38,7 +38,7 @@ const resolverAuth = {
     // const isDev = env === "development";
     // const cookieOptions = {
     //   httpOnly: true,
-    //   domain: isDev ? "localhost" : "https://skillz-jxsk.onrender.com",
+    //   domain: isDev ? "localhost" : "https://Learnify-jxsk.onrender.com",
     //   maxAge: 24 * 60 * 60 * 1000, // 1 day
     //   sameSite: "None",
     // };

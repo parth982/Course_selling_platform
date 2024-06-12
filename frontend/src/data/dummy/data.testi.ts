@@ -12,7 +12,7 @@ export const dummyTestimonials: TestiAuthorProps[] = [
     },
     msg: {
       text: "I was struggling to learn a new language, but",
-      highlightText: "Skillz made it so easy.",
+      highlightText: "Learnify made it so easy.",
       afterHighlightText: "I was able to learn the basics in just a few weeks.",
     },
   },
@@ -27,7 +27,7 @@ export const dummyTestimonials: TestiAuthorProps[] = [
     },
     msg: {
       text: "As a busy professional, finding time for learning seemed impossible.",
-      highlightText: "Skillz made it so easy.",
+      highlightText: "Learnify made it so easy.",
       afterHighlightText: "Now, I fit learning into my schedule effortlessly.",
     },
   },
@@ -42,7 +42,7 @@ export const dummyTestimonials: TestiAuthorProps[] = [
     },
     msg: {
       text: "I always thought programming was complex, but",
-      highlightText: "Skillz broke it down into understandable chunks.",
+      highlightText: "Learnify broke it down into understandable chunks.",
       afterHighlightText: "Now, I'm confidently coding my own projects.",
     },
   },
@@ -56,7 +56,7 @@ export const dummyTestimonials: TestiAuthorProps[] = [
       width: 268,
     },
     msg: {
-      text: "The design courses on Skillz are top-notch.",
+      text: "The design courses on Learnify are top-notch.",
       highlightText: "They helped me improve my skills.",
       afterHighlightText: "I've seen a noticeable difference in my work.",
     },
@@ -73,7 +73,7 @@ export const dummyTestimonials: TestiAuthorProps[] = [
     msg: {
       text: "I've been producing music for years, but",
       highlightText:
-        "the advanced music production course on Skillz is a game-changer.",
+        "the advanced music production course on Learnify is a game-changer.",
       afterHighlightText: "",
     },
   },
@@ -88,7 +88,7 @@ export const dummyTestimonials: TestiAuthorProps[] = [
     },
     msg: {
       text: "Running my own business can be overwhelming, but",
-      highlightText: "Skillz helped me enhance my business management skills.",
+      highlightText: "Learnify helped me enhance my business management skills.",
       afterHighlightText:
         "Now, I'm more confident in making strategic decisions.",
     },

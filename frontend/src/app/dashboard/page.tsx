@@ -11,7 +11,7 @@ const page = () => {
         style={{ padding: "30px 0", gap: "30px 50px", flexWrap: "wrap" }}
       >
         <Heading
-          text="Skillz"
+          text="Learnify"
           highlightText="Dashboard"
           type={1}
           headingStyle={{

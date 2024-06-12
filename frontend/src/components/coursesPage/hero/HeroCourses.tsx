@@ -17,7 +17,7 @@ const HeroCourses = () => {
               width={144.54}
             />
             <Heading
-              text="Skillz"
+              text="Learnify"
               highlightText="Courses"
               type={0}
               headingStyle={{

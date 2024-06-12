@@ -17,7 +17,7 @@ const Logo = ({ style, logoClass }: LogoProps) => {
         style={style}
         // onClick={() => setActive("")}
       >
-        Skillz
+        Learnify
       </Link>
     </>
   );
